@@ -76,6 +76,34 @@ creación de un foro que permitiera interacciones enriquecedoras.
 Aunque la plataforma no llegó a desplegarse debido a factores ajenos al cliente y al equipo, se lograron cumplir \
 todos los casos de uso y las fechas de entrega estipuladas.
 `
+                },
+                {
+                    type: 'title',
+                    content:
+                        `Servcon Obras Civiles`
+                },
+                {
+                    type: 'paragraph',
+                    content:
+                        `Este proyecto fue el primer trabajo real realizado, dentro de esta empresa como desarrollador Full-Stack\
+se lidera la planificacion, implementacion y posterior despliegue y mantenimiento de la plataforma. En esta oportunidad\
+se utiliza el stack MERN, permitiendome aprender en profundidad como se estructura el desarrollo de un sistema con estas caracteristicas.\
+Posterior a su desarrollo, se despliega el proyecto en un servidor privado virtual o VPS donde adquiero una experiencia real en la asignacion de puertos\
+, medidas de seguridad y elementos relevantes de una aplicacion en produccion.`
+                },
+                {
+                    type: 'title',
+                    content:
+                        `Entix Enterprise TI Experts`
+                },
+                {
+                    type: 'paragraph',
+                    content:
+                        `Esta actividad fue realizada dentro del periodo de practica a principios de 2025, dentro de la empresa\
+se utiliza un software personalizado que permite realizar procesos ETL. Posteriormente se solicita generar reportes con Power BI\
+y realizar consultas con bases de datos relacionales. Esta experiencia me permitio comprender como es realmente un ambiente laboral\
+, asi como tambien comprender que existe una jerarquia y responsabilidades que respetar en una empresa. Por el lado tecnico, reforce\
+mi conocimiento en bases de datos relacionales y en un sistema robusto de proces de ETL.`
                 }
             ],
         formation_description_en:
@@ -131,6 +159,34 @@ creation of a forum that would allow for enriching interactions.
 
 Although the platform was not deployed due to factors beyond the control of the client and the team, it was achieved \
 all use cases and stipulated delivery dates.
+`
+                },,
+                {
+                    type: 'title',
+                    content:
+                        `Servcon`
+                },
+                {
+                    type: 'paragraph',
+                    content:
+                        `This project was the first real work carried out within this company as a Full-Stack Developer.\
+I led the planning, implementation, and the subsequent deployment and maintenance of the platform.\
+On this occasion, the MERN stack was used, allowing me to gain in-depth knowledge of how to structure the development of a system with these characteristics.\
+After development, the project was deployed on a Virtual Private Server (VPS), where I gained real-world experience in port assignment, security measures, and other key aspects of a production-ready application.
+`
+                },,
+                {
+                    type: 'title',
+                    content:
+                        `Entix Enterprise TI Experts`
+                },
+                {
+                    type: 'paragraph',
+                    content:
+                        `This activity was carried out during the internship period at the beginning of 2025, within the company.\
+A custom software was used to perform ETL processes. Later, I was asked to generate reports using Power BI and run queries on relational databases.\
+This experience allowed me to understand what a real work environment is like, as well as the importance of hierarchy and responsibilities within a company.\
+On the technical side, I strengthened my knowledge of relational databases and gained experience with a robust ETL processing system.
 `
                 }
             ]
