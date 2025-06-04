@@ -471,7 +471,7 @@ body {
 
 .career-featured-content {
   margin-top: -2.3rem;
-  margin-right: 10rem;
+  margin-right: 9rem;
 }
 
 .career-featured-content>hr {
@@ -499,7 +499,7 @@ body {
   color: var(--background-color-1);
   font-size: 1.6rem;
   text-wrap: nowrap;
-  cursor: default;
+  cursor: default;  
 }
 
 .horizontal-hr-long {
@@ -1018,7 +1018,8 @@ body {
   pointer-events: none;
   transition: all 0.5s ease-in-out;
 }
-.project-preview-right>img:hover{
+
+.project-preview-right>img:hover {
   width: 50rem;
   transition: all 0.5s ease-in-out;
   z-index: 99;
@@ -1273,6 +1274,14 @@ body {
     padding-left: 2rem;
   }
 
+  .career-featured-content {
+    margin-right: 4rem;
+  }
+
+
+  .horizontal-hr>p {
+    rotate: calc(311deg);
+  }
 }
 
 
@@ -1412,7 +1421,7 @@ body {
   }
 
   .career-featured-content {
-    margin-right: 7rem;
+    margin-right: 1rem;
   }
 
   .horizontal-hr>p {
@@ -1435,8 +1444,8 @@ body {
   .career-featured-content>p {
     font-size: 0.8rem;
     rotate: calc(311deg);
-    margin-top: 4rem;
-    margin-left: -2rem;
+    margin-top: 3rem;
+    margin-left: -4rem;
   }
 }
 
@@ -1447,8 +1456,12 @@ body {
     font-size: 1.4rem;
   }
 
+  .career-featured-container {
+    margin-left: -4%;
+  }
+
   .career-featured-content {
-    margin-left: 0rem !important;
+    margin-left: 3rem !important;
     margin-top: -0.8rem;
   }
 
@@ -1479,7 +1492,7 @@ body {
 
   .career-featured-content>p {
     margin-top: 3rem;
-    margin-left: 0rem;
+    margin-left: -2rem;
   }
 
   .career-end {
@@ -1708,20 +1721,26 @@ body {
     width: 16rem;
   }
 
+  .career-featured-content > .horizontal-hr {
+    width: 0.4rem;
+    margin-top: -2.8rem;
+    margin-left: 3.7rem;
+  }
+
   .career-featured-content {
-    margin-left: -3rem !important;
+    margin-left: -2rem !important;
   }
 
   .career-featured-container {
     width: 15rem;
-    margin-left: 42%;
+    margin-left: 20%;
   }
 
   .career-featured-content>p {
     font-size: 0.8rem;
-    rotate: calc(360deg);
-    margin-top: 2rem;
-    margin-left: 1rem;
+    rotate: calc(270deg);
+    margin-top: 3.5rem;
+    margin-left: 0rem;
   }
 
   .career-content>p {
@@ -1739,7 +1758,7 @@ body {
 
   .horizontal-hr>p {
     rotate: calc(311deg);
-    margin-left: 0.3rem;
+    margin-left: -0.7rem;
     margin-top: -1.5rem;
     height: 0rem;
     font-size: 0.7rem !important;
@@ -1798,6 +1817,11 @@ body {
 }
 
 @media (max-width:534px) {
+
+  .career-featured-content > .horizontal-hr {
+    margin-top: -2.5rem;
+    margin-left: 3.7rem;
+  }
 
   .slide-container {
     width: 24rem;
@@ -1895,11 +1919,11 @@ body {
   }
 
   .career-featured-content {
-    margin-left: -6rem !important;
+    margin-left: -3rem !important;
   }
 
   .career-featured-container {
-    width: 6rem;
+    width: 7rem;
   }
 
   .career-content>.career-content-description {
@@ -2114,6 +2138,28 @@ body {
 
 @media (max-width: 310px) {
 
+  .career-line {
+    margin-left: -27%;
+  }
+
+  .career-featured-content > p {
+    font-size: 0.8rem;
+    rotate: calc(270deg);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    text-align: center;
+  }
+
+  .career-featured-content {
+    margin-left: -3rem !important;
+    margin-top: -0.9rem;
+  }
+
+  .career-featured-container {
+    width: 3rem;
+  }
+
   /* PRESENTATION */
   .presentation {
     font-size: 1rem;
@@ -2186,12 +2232,11 @@ body {
 
   /* CAREER CONTENT */
 
-
   .career-content {
     min-width: 15rem;
     margin-left: -0.7rem;
   }
-
+  
   .career-featured-content>.diagonal-hr {
     display: none;
   }
@@ -2211,7 +2256,7 @@ body {
 
   .career-featured-content>.circle-title {
     margin-top: 0.3em;
-    margin-left: 1.2rem;
+    margin-left: -0.8rem;
   }
 
   .career-featured-content>p {

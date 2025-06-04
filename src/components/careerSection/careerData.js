@@ -3,19 +3,23 @@ const PlaceholderIMG = 'https://res.cloudinary.com/dq6ua6vmy/image/upload/v17244
 const CareerData = [
     {
         id: 1,
-        formation_title: 'Ingenieria Civil informatica (2000-2024)',
-        formation_title_en: 'Software Engineering (2000-2024)',
+        formation_title: 'Ingenieria Civil informatica (2020-2025)',
+        formation_title_en: 'Software Engineering (2020-2025)',
         start_year: '2020',
-        end_year: '2024',
+        end_year: '2025',
         formation_content:
             [
                 { year: 'Jun 2023', description: 'PSYS' },
-                { year: 'Ago 2023', description: 'UNAB-Centro de alumnos' },
+                { year: 'Ago 2023', description: 'Centro de alumnos' },
+                { year: 'Nov 2024', description: 'Servcon' },
+                { year: 'Abr 2025', description: 'Entix' }
             ],
         formation_content_en:
             [
                 { year: 'Jun 2023', description: 'PSYS' },
                 { year: 'Aug 2023', description: 'UNAB-Student Council' },
+                { year: 'Nov 2024', description: 'Servcon' },
+                { year: 'Apr 2025', description: 'Entix' }
             ],
         demo_image: { PlaceholderIMG },
         formation_description:

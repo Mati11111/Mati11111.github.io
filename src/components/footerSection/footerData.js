@@ -2,7 +2,7 @@ const FooterData =
     [
         {
             id: 'github',
-            content: 'https://github.com/Matii111',
+            content: 'https://github.com/Mati11111',
         }, {
             id: 'mail',
             mail: 'matias.chaparro.mail@gmail.com'
